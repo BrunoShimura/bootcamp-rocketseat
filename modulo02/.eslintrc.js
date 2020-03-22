@@ -19,11 +19,11 @@ module.exports = {
     'prettier/pretter': 'error',
     'class-methods-use-this': 'off',
     'no-param-reassign': 'off',
-    camelcase: 'off',
+    'camelcase': 'off',
     'no-unused-vars': [
       'error',
       {
-        argsIgnorePattern: 'next',
+        'argsIgnorePattern': 'next',
       },
     ],
   },
